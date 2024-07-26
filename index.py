@@ -5,6 +5,13 @@ import numpy as np
 import base64
 import requests
 
+st.set_page_config(
+        page_icon="logo3.png",
+        page_title="Movies Recommendation System | app",
+        layout="wide"
+
+            )
+
 # Function to convert image to base64 encoding
 def get_img_as_base64(file):
     with open(file, "rb") as f:

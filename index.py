@@ -222,7 +222,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 # Sidebar configuration
 with st.sidebar:
     # Display logo image
-    st.image("logo3.png", use_column_width=True)
+    st.image("logo3.png", use_container_width=True)
 
     # Adding a custom style with HTML and CSS
     st.markdown("""
@@ -411,26 +411,26 @@ def main():
         # Add content to each column
         with col1:
             st.text(Recommended_list[0])
-            st.image(poster_list[0], caption="Top 1", use_column_width=True)
+            st.image(poster_list[0], caption="Top 1", use_container_width=True)
 
         with col2:
             st.text(Recommended_list[1])
-            st.image(poster_list[1], caption="Top 2", use_column_width=True)
+            st.image(poster_list[1], caption="Top 2", use_container_width=True)
 
         with col3:
 
             st.text(Recommended_list[2])
-            st.image(poster_list[2], caption="Top 3", use_column_width=True)
+            st.image(poster_list[2], caption="Top 3", use_container_width=True)
 
         with col4:
 
             st.text(Recommended_list[3])
-            st.image(poster_list[3], caption="Top 4", use_column_width=True)
+            st.image(poster_list[3], caption="Top 4", use_container_width=True)
 
         with col5:
 
             st.text(Recommended_list[4])
-            st.image(poster_list[4], caption="Top 5", use_column_width=True)
+            st.image(poster_list[4], caption="Top 5", use_container_width=True)
 
 
 
